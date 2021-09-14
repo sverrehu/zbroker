@@ -18,5 +18,5 @@ docker build -t zbroker ./
 ## Run
 
 ```shell
-docker run -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092 zbroker
+docker run -it -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://localhost:9092 zbroker
 ```
