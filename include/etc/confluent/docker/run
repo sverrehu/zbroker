@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+export COMPONENT=zookeeper
+/etc/confluent/docker.${COMPONENT}/run &
+
+export COMPONENT=kafka
+/etc/confluent/docker.${COMPONENT}/run
