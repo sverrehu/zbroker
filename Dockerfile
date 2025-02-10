@@ -1,4 +1,4 @@
-FROM confluentinc/cp-kafka:7.8.0
+FROM confluentinc/cp-kafka:7.8.1
 
 USER root
 
